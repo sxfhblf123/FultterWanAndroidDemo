@@ -1,6 +1,11 @@
 import 'dart:async';
 import 'package:flutter/widgets.dart';
 
+/*
+* 启动页
+* @author sxf
+* @date 2018/11/2 0002
+* */
 class SplashPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -21,11 +26,11 @@ class _SplashPageState extends State<SplashPage> {
   }
 
   void startCountDown() {
-    var duration = new Duration(seconds: 3);
+    var duration = new Duration(seconds: 2);
     new Future.delayed(duration, toHome);
   }
 
   void toHome() {
-    Navigator.of(context).pushReplacementNamed("/HomePage");
+    Navigator.of(context).pushReplacementNamed("/mainpage");
   }
 }

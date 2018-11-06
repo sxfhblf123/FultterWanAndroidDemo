@@ -1,27 +1,19 @@
 import 'package:flutter/material.dart';
-import 'SplashPage.dart';
-import 'HomePage.dart';
+import 'package:flutter_demo/SplashPage.dart';
+import 'MainPage.dart';
 
 void main() => runApp(new MyApp());
-//void main() => runApp(new Center(
-//      child: new Text("Demo", textDirection: TextDirection.ltr),
-//    ));
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: "Splash",
+      title: "Demo",
       theme: new ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: new HomePage(),
-
-//自定义Splash页的路由
-//      routes: <String, WidgetBuilder>{
-//        "/HomePage": (BuildContext context) => new HomePage()
-//      },
-
+      home: new SplashPage(),
+      routes: <String, WidgetBuilder>{"/mainpage": (context) => new MainPage()},
     );
   }
 }

@@ -32,6 +32,7 @@ class _WebViewPage extends State<WebViewPage> {
       withLocalStorage: true,
       withZoom: true,
       appBar: AppBar(
+        backgroundColor: Color(0xffFFCA22),
         title: Text(
           title,
           style: TextStyle(color: Colors.white),

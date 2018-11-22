@@ -5,6 +5,8 @@
 * @date 2018/11/2 0002
 * */
 class Api {
+  static String SEARCH_HISTORY="serchhistory";
+
   static String BASE_URL = "http://www.wanandroid.com";
   static String GET_BANNER = BASE_URL + "/banner/json";
   static String GET_KNOWLEDGE_LIST = BASE_URL + "/tree/json";

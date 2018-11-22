@@ -20,6 +20,9 @@ dependencies:
   dio: ^1.0.6
   fluttertoast: ^2.0.9
   flutter_webview_plugin: ^0.2.1+2
+  shared_preferences: ^0.4.3
+  synchronized: ^1.5.3
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -41,19 +44,7 @@ flutter:
   uses-material-design: true
 
   assets:
-   - images/splash.jpg
-   - images/ic_home_select.png
-   - images/ic_home_unselect.png
-   - images/ic_knowledge_select.png
-   - images/ic_knowledge_unselect.png
-   - images/ic_project_select.png
-   - images/ic_project_unselect.png
-   - images/ic_mine_select.png
-   - images/ic_mine_unselect.png
-   - images/ic_weixin_select.png
-   - images/ic_weixin_unselect.png
-   - images/ic_navigation_select.png
-   - images/ic_navigation_unselect.png
+   - images/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

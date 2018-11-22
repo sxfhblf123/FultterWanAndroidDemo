@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="CMakeSettings">
@@ -15,51 +15,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf0b70cc-9fe2-41fc-94fb-ccb933f97dfe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/android/app/key.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_home_select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_home_unselect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_knowledge_select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_knowledge_unselect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_mine_select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_mine_unselect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_navigation_select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_navigation_unselect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_project_select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_project_unselect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_weixin_select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ic_weixin_unselect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/MainPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/WebViewPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/accounts/AccountsListPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/accounts/AccountsPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/home/HomeListItemWidget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/home/HomePage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/konwledge/KnowledgeChildPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/konwledge/KnowledgeItemWidget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/konwledge/KnowledgeListPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/konwledge/KnowledgePage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/navigation/NavigationPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/project/ProjectListPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/project/ProjectPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/search/SearchPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/Api.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/HttpUtils.dart" afterDir="false" />
+    <list default="true" id="cf0b70cc-9fe2-41fc-94fb-ccb933f97dfe" name="Default" comment="app初步完成">
+      <change afterPath="$PROJECT_DIR$/images/icon_head_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/MyDrawerPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/SPUtils.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/HomePage.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/SplashPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/SplashPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/MainPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MainPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/WebViewPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/WebViewPage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/search/SearchPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/search/SearchPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/Api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/Api.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -82,36 +51,35 @@
   <component name="DartProblemsView" auto-scroll-to-source="true" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="NavigationPage.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/navigation/NavigationPage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-                <element signature="e#2291#3213#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchPage.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/search/SearchPage.dart">
+      <file leaf-file-name="MainPage.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/MainPage.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
-              <caret line="190" column="45" selection-start-line="190" selection-start-column="45" selection-end-line="190" selection-end-column="45" />
+              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
-                <element signature="e#3429#4953#0" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Api.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/utils/Api.dart">
+      <file leaf-file-name="SplashPage.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/SplashPage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="414">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -147,6 +115,11 @@
       <find>_listWidget</find>
       <find>_editController</find>
       <find>_setWidgetList</find>
+      <find>_listHotKeyWidget</find>
+      <find>curPage</find>
+      <find>children</find>
+      <find>_listHistory</find>
+      <find>itemBuilder</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,15 +145,11 @@
         <option value="$PROJECT_DIR$/lib/utils/HttpUtils.dart" />
         <option value="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/lib/SplashPage.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/MyWebViewPage.dart" />
         <option value="$PROJECT_DIR$/lib/home/HomeListItemWidget.dart" />
-        <option value="$PROJECT_DIR$/lib/konwledge/KnowledgeItemWidget.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/konwledge/KnowledgeChildPage.dart" />
         <option value="$PROJECT_DIR$/lib/konwledge/KnowledgePage.dart" />
         <option value="$PROJECT_DIR$/lib/home/HomePage.dart" />
-        <option value="$PROJECT_DIR$/lib/WebViewPage.dart" />
         <option value="$PROJECT_DIR$/lib/accounts/AccountsListPage.dart" />
         <option value="$PROJECT_DIR$/lib/konwledge/KnowledgeListPage.dart" />
         <option value="$PROJECT_DIR$/lib/accounts/AccountsPage.dart" />
@@ -189,19 +158,26 @@
         <option value="$PROJECT_DIR$/lib/navigation/NavigationSortWidget.dart" />
         <option value="$PROJECT_DIR$/lib/navigation/NavigationSortItemWidget.dart" />
         <option value="$PROJECT_DIR$/lib/navigation/NavigationPage.dart" />
-        <option value="$PROJECT_DIR$/lib/MainPage.dart" />
-        <option value="$PROJECT_DIR$/lib/utils/Api.dart" />
         <option value="$PROJECT_DIR$/android/key.properties" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/lib/utils/SPUtils.java" />
+        <option value="$PROJECT_DIR$/lib/utils/Api.dart" />
+        <option value="$PROJECT_DIR$/lib/utils/SPUtils.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/search/SearchPage.dart" />
+        <option value="$PROJECT_DIR$/lib/WebViewPage.dart" />
+        <option value="$PROJECT_DIR$/lib/MainPage.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/konwledge/KnowledgeItemWidget.dart" />
+        <option value="$PROJECT_DIR$/lib/MyDrawerPage.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="41" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="1912" />
+    <option name="y" value="42" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,8 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,36 +195,55 @@
             <path>
               <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="konwledge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -262,10 +255,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Main&#9;FILE&#9;file://E:/FlutterTest/flutter_demo/lib/MainPage.dart" />
+    <property name="SearchEverywhereHistoryKey" value="Sea&#9;FILE&#9;file://E:/FlutterTest/flutter_demo/lib/search/SearchPage.dart&#10;Main&#9;FILE&#9;file://E:/FlutterTest/flutter_demo/lib/MainPage.dart" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/wan_android_flutter-master" />
@@ -277,11 +271,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FlutterTest\flutter_demo\images" />
+      <recent name="E:\FlutterTest\flutter_demo\screenshot" />
       <recent name="E:\FlutterTest\flutter_demo\android" />
       <recent name="E:\FlutterTest\flutter_demo\android\app" />
       <recent name="E:\FlutterTest\flutter_demo\lib\accounts" />
-      <recent name="E:\FlutterTest\flutter_demo\images" />
-      <recent name="E:\FlutterTest\flutter_demo\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\FlutterTest\flutter_demo\lib\project" />
@@ -423,169 +417,108 @@
       <option name="presentableId" value="Default" />
       <updated>1536038428842</updated>
     </task>
+    <task id="LOCAL-00001" summary="app初步完成">
+      <created>1541490710793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541490710794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="42" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info id="Build Variants" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50268096" side_tool="true" weight="0.7525622" />
-      <window_info anchor="bottom" id="Dart Analysis" order="8" sideWeight="0.49785408" weight="0.7306003" />
-      <window_info anchor="right" id="Flutter Outline" order="9" weight="0.3299866" />
-      <window_info anchor="bottom" id="Logcat" order="11" sideWeight="0.49731904" weight="0.9077599" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.71303076" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
+      <window_info id="Build Variants" order="7" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50268096" side_tool="true" weight="0.7525622" />
+      <window_info anchor="bottom" id="Dart Analysis" order="8" sideWeight="0.49785408" weight="0.7306003" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.82576865" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.329429" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.88433385" />
+      <window_info anchor="right" id="Flutter Outline" order="9" weight="0.3299866" />
+      <window_info anchor="bottom" id="Logcat" order="11" sideWeight="0.49731904" weight="0.9077599" />
       <window_info id="Captures" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.71303076" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.3297587" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32650074" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.45241582" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Preview" order="8" weight="0.26541555" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.329429" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Dart Analysis" order="8" sideWeight="0.49785408" weight="0.7306003" />
+      <window_info id="Build Variants" order="7" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.82576865" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.3297587" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Captures" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Android Profiler" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.329429" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50268096" side_tool="true" weight="0.7525622" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.26541555" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="9" weight="0.3299866" />
+      <window_info anchor="bottom" id="Logcat" order="11" sideWeight="0.49731904" weight="0.9077599" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.88433385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.45241582" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.71303076" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="app初步完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="app初步完成" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/home/BannerView.dart" />
-    <entry file="file://$PROJECT_DIR$/lib/mine/MinePage.dart" />
-    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/navigator.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="1473" column="12" selection-start-line="1473" selection-start-column="12" selection-end-line="1473" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/kotlin/flutterdemo/com/flutterdemo/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_webview_plugin-0.2.1+2/lib/src/webview_scaffold.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/framework.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="3624" column="8" selection-start-line="3624" selection-start-column="8" selection-end-line="3624" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/konwledge/KnowledgeListPage.java" />
-    <entry file="file://$PROJECT_DIR$/lib/SplashPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/accounts.java" />
-    <entry file="file://$USER_HOME$/Desktop/wanandroid.apk" />
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/WebViewPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flutter/packages/flutter/lib/src/material/tabs.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1029" column="21" selection-start-line="1029" selection-start-column="21" selection-end-line="1029" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flutter/packages/flutter/lib/src/material/tab_controller.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="248" column="8" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/accounts/AccountsPage.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -618,13 +551,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/konwledge/KnowledgeListPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -632,24 +561,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/scroll_view.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="781" column="11" selection-start-line="781" selection-start-column="11" selection-end-line="781" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/navigation/NavigationSortWidget.java" />
-    <entry file="file://$PROJECT_DIR$/lib/konwledge/KnowledgeItemWidget.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/navigation/NavigationSortItemWidget.dart" />
     <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/gesture_detector.dart">
       <provider selected="true" editor-type-id="text-editor">
@@ -658,28 +576,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/container.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="284" column="67" selection-start-line="284" selection-start-column="63" selection-end-line="284" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/search/SearchPage.java" />
     <entry file="file://$PROJECT_DIR$/lib/home/HomeListItemWidget.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/MainPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,20 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="752" column="15" selection-start-line="752" selection-start-column="15" selection-end-line="752" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/Api.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/basic.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="3886" column="22" selection-start-line="3886" selection-start-column="4" selection-end-line="3886" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -762,24 +649,181 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/screenshot/home.png" />
+    <entry file="file://$PROJECT_DIR$/screenshot/knowledge.png" />
+    <entry file="file://$PROJECT_DIR$/screenshot/weixinaccpunts.png" />
+    <entry file="file://$PROJECT_DIR$/screenshot/navigation.png" />
+    <entry file="file://$PROJECT_DIR$/screenshot/project.png" />
+    <entry file="file://$PROJECT_DIR$/screenshot/screen_00.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshot/screen_01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/basic.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="3882" column="2" selection-start-line="3882" selection-start-column="2" selection-end-line="3882" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/SPUtils.java" />
     <entry file="file://$PROJECT_DIR$/lib/navigation/NavigationPage.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#2291#3213#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/Api.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/container.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="241" column="11" selection-start-line="241" selection-start-column="11" selection-end-line="241" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/flutter/packages/flutter/lib/src/gestures/recognizer.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/framework.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="1140" column="2" selection-start-line="1140" selection-start-column="2" selection-end-line="1140" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/search/SearchPage.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="190" column="45" selection-start-line="190" selection-start-column="45" selection-end-line="190" selection-end-column="45" />
+        <state relative-caret-position="168">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#3429#4953#0" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/SPUtils.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/MyDrawerPage.java" />
+    <entry file="file://E:/flutter/packages/flutter/lib/src/material/drawer.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="105" selection-start-line="105" selection-end-line="108" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-2.1.1/lib/fluttertoast.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/flutter/packages/flutter/lib/src/widgets/scroll_view.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="887" column="26" selection-start-line="887" selection-start-column="15" selection-end-line="887" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/konwledge/KnowledgeItemWidget.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/konwledge/KnowledgeListPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/WebViewPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/MyDrawerPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/MainPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/SplashPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

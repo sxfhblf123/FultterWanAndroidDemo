@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import "package:flutter/widgets.dart";
+import 'package:flutter_demo/MyDrawerPage.dart';
 import 'package:flutter_demo/konwledge/KnowledgePage.dart';
 import 'package:flutter_demo/project/ProjectPage.dart';
 import 'package:flutter_demo/home/HomePage.dart';
@@ -118,7 +119,7 @@ class _MainPage extends State<MainPage> {
       ),
 
       //抽屉布局
-      drawer: null,
+      drawer: MyDrawerPage(),
 
       //底部导航
       bottomNavigationBar: BottomNavigationBar(

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_demo/home/HomeListItemWidget.dart';
 import 'package:flutter_demo/utils/Api.dart';
 import 'package:flutter_demo/utils/HttpUtils.dart';
+import 'package:flutter_demo/utils/SPUtils.dart';
 /**
  * 搜索页面
  * @author sxf
@@ -26,6 +27,9 @@ class _SearchPage extends State<SearchPage> {
   //搜索热词的数据list
   List _listHotKey = new List();
   List<Widget> _listHotKeyWidget = new List();
+
+  //搜索结果的数据list
+  List<String> _listHistory = new List();
 
   //搜索列表的数据list
   List _listSearchResult = new List();
@@ -50,6 +54,7 @@ class _SearchPage extends State<SearchPage> {
       }
     });
     getHotKey();
+    getHistory();
     super.initState();
   }
 
@@ -68,7 +73,7 @@ class _SearchPage extends State<SearchPage> {
       );
     } else {
       if (_listSearchResult.length < 1) {
-        return _buildHotKeyWidget();
+        return _buildMainWidget();
       } else {
         return new ListView.builder(
           itemBuilder: (context, index) => setListViewWidget(index),
@@ -79,9 +84,27 @@ class _SearchPage extends State<SearchPage> {
     }
   }
 
+  //构建搜索页面
+  Widget _buildMainWidget() {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.start,
+      children: <Widget>[
+        _buildHotKeyWidget(),
+        _buildHistoryWidget(),
+      ],
+    );
+  }
+
   //搜索的网络请求
   _searchStr(String content) {
-    if (_editContent != null && _editContent.isNotEmpty) {
+    if (content != null) {
+      //保存到搜索记录
+      if (!_listHistory.contains(content)) {
+        setState(() {
+          _listHistory.add(content);
+          SPUtils.putStringList(Api.SEARCH_HISTORY, _listHistory);
+        });
+      }
       String url = Api.BASE_URL + "/article/query/$curPage/json";
       Map<String, String> params = {"k": content};
       HttpUtils.post(url, params: params).then((response) {
@@ -120,7 +143,7 @@ class _SearchPage extends State<SearchPage> {
         if (data != null && map["errorCode"] == 0) {
           setState(() {
             _listHotKey = data;
-            _setWidgetList();
+            _setHotWidgetList();
           });
         }
       }
@@ -188,12 +211,14 @@ class _SearchPage extends State<SearchPage> {
   //构建热词布局
   Widget _buildHotKeyWidget() {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Container(
           height: 25,
           margin: EdgeInsets.fromLTRB(3, 10, 10, 0),
-          child: Text("热门搜索",style: TextStyle(color: Colors.red,fontSize: 18),),
+          child: Text(
+            "热门搜索",
+            style: TextStyle(color: Colors.red, fontSize: 18),
+          ),
         ),
         Wrap(
           crossAxisAlignment: WrapCrossAlignment.start,
@@ -207,15 +232,13 @@ class _SearchPage extends State<SearchPage> {
   }
 
   //创建热词的Wrap布局的子控件
-  _setWidgetList() {
+  _setHotWidgetList() {
     List<Widget> _widgets = new List();
     for (var value in _listHotKey) {
       _widgets.add(
         new GestureDetector(
           onTap: () {
-//            Navigator.of(context).push(MaterialPageRoute(
-//                builder: (context) =>
-//                    WebViewPage(value["title"], value["link"])));
+            _searchStr(value["name"]);
           },
           child: new Container(
             padding: EdgeInsets.fromLTRB(2, 1, 2, 1),
@@ -236,5 +259,63 @@ class _SearchPage extends State<SearchPage> {
     setState(() {
       _listHotKeyWidget = _widgets;
     });
+  }
+
+  Widget _buildHistoryWidget() {
+    return Column(
+      children: <Widget>[
+        Container(
+          height: 25,
+          margin: EdgeInsets.fromLTRB(3, 10, 10, 0),
+          child: Text(
+            "搜索记录",
+            style: TextStyle(color: Colors.red, fontSize: 18),
+          ),
+        ),
+        _listHistory != null && _listHistory.length > 0
+            ? Wrap(
+                crossAxisAlignment: WrapCrossAlignment.start,
+                alignment: WrapAlignment.start,
+                spacing: 5,
+                runSpacing: 5,
+                children: _setHistoryWidgetList(),
+              )
+            : Container()
+      ],
+    );
+  }
+
+  void getHistory() async {
+    List<String> list = SPUtils.getStringList(Api.SEARCH_HISTORY);
+    if (list != null && list.length > 0) {
+      _listHistory = list;
+    }
+  }
+
+  //创建搜索历史的Wrap布局的子控件
+  List<Widget> _setHistoryWidgetList() {
+    List<Widget> _widgets = new List();
+    for (var value in _listHistory) {
+      _widgets.add(
+        new GestureDetector(
+          onTap: () {
+            _searchStr(value);
+          },
+          child: new Container(
+            padding: EdgeInsets.fromLTRB(2, 1, 2, 1),
+            margin: EdgeInsets.fromLTRB(0, 5, 0, 0),
+            decoration: BoxDecoration(
+              border: Border.all(color: Colors.blueAccent, width: 1.0),
+              borderRadius: BorderRadius.circular(3),
+            ),
+            child: new Text(
+              value,
+              style: TextStyle(color: Colors.blueAccent, fontSize: 12),
+            ),
+          ),
+        ),
+      );
+    }
+    return _widgets;
   }
 }
